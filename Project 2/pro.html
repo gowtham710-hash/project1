@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 2</title>
+    <link rel="stylesheet" href="pro.css"/>
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="post"></form>
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <div class="input-and-hint">
+                <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+                <span class="hint">(Max characters A-Z And a-z)</span>
+            </div>
+        </div>
+        <div class="form-group inline-group">
+            <label for="last Name">last Name</label>
+                <div class="input-and-hint">
+                <input type="text" id="lastname" name="lastname" placeholder="lastname">
+                <span class="hint">(Max characters A-Z And a-z)</span>
+            </div>
+        </div>
+        <div class="form-group inline-group date-group">
+            <label>Date of Birth</label>
+            <div class="date-inputs">
+                <select name="dobday">
+                    <option disabled selected>Days</option>
+                </select>
+                <select name="dobmonth">
+                    <option disabled selected>Month</option>
+                </select>
+                <select name="dobyear">
+                    <option disabled selected>Year</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group inline-group">
+            <label for="email">Email-id</label>
+            <input type="email" id="email" name="email" placeholder="email-id">
+        </div>
+        <div class="form-group inline-group">
+            <label>Gender</label>
+            <div class="radio-option">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">FeMale</label>
+            </div>
+        </div>
+        <div class="form-group address-group">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+        </div>
+        <div class="form-group inline-group">
+            <label for="pincode">Pin-Code</label>
+            <input type="text" id="pincode" name="pincode" placeholder="pin-code">
+        </div>
+        <div class="form-group inline-group">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+        </div>
+        <div class="form-group inline-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div class="form-group inline-group">
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" >
+        </div>
+        <div class="form-group inline-group">
+            <label>Hobbies</label>
+            <div class="checkbox-options">
+                <input type="checkbox" id="drawing" name="hobbies" value="drwaing">
+                <label for="drwaing">drawing</label>
+                <input type="checkbox" id="singing" name="hobbies" value="singing">
+                <label for="singing">Singing</label>
+                <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+                <label for="singing">Singing</label>
+                <input type="checkbox" id="sketching" name="hobbies" value="sketching">
+                <label for="sketching">Sketching</label>
+            </div>
+        </div>
+        <div class="form-group qualification-group">
+            <label>Qualiication</label>
+            <div class="qualification-table">
+                <div class="table-header">
+                    <span>SL.NO</span>
+                    <span>Examination</span>
+                    <span>Board</span>
+                    <span>percentage</span>
+                    <span>Year of passing</span>
+                </div>
+                <div class="table-row">
+                    <span>1.</span>
+                    <input type="text" name="exam1" placeholder="examination">
+                    <input type="text" name="board1" placeholder="board">
+                    <input type="text" name="percentage1" placeholder="percentage">
+                    <input type="text" name="year1" placeholder="Year of passing">
+                </div>
+                <div class="table-row">
+                    <span>2.</span>
+                    <input type="text" name="exam2" placeholder="examination">
+                    <input type="text" name="board2" placeholder="board">
+                    <input type="text" name="percentage2" placeholder="percentage">
+                    <input type="text" name="year2" placeholder="Year of passing">
+                </div>
+                <div class="table-row">
+                    <span>3.</span>
+                    <input type="text" name="exam3" placeholder="examination">
+                    <input type="text" name="board3" placeholder="board">
+                    <input type="text" name="percentage3" placeholder="percentage">
+                    <input type="text" name="year3" placeholder="Year of passing">
+                </div>
+            </div>
+        </div>
+        <div class="form-group inline-group courses-group">
+            <label>Courses</label>
+            <div class="radio-options">
+                <input type="radio" id="bca" name="course" value="bca">
+                <label for="bca">BCA</label>
+                <input type="radio" id="mca" name="course" value="mca">
+                <label for="mca">MCA</label>
+            </div>
+        </div>
+        <div class="send-button-wrapper">
+            <button type="submit" class="send-now-button">Send Now</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
